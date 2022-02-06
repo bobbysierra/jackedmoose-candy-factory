@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  color: #fffdbd;
+}
+main {
+  background-image: url('/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width : 100%;
+}
+
+#icon-eye {
+  width   : 250px;
+  margin  : auto;
+  padding : 20px;
+  overflow: auto;
+  color   : white;
+}
